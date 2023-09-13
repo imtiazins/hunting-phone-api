@@ -91,13 +91,7 @@ const handleSearch = (isShowAll) => {
   console.log(searchText);
   loadPhone(searchText, isShowAll);
 }
-// handle search recap
-// const handleSearch2 = () =>{
-//     toggleLoadingSpinner(true);
-//     const searchField = document.getElementById('search-field2');
-//     const searchText = searchField.value;
-//     loadPhone(searchText);
-// }
+
 
 const toggleLoadingSpinner = (isLoading) => {
   const loadingSpinner = document.getElementById('loading-spinner');
